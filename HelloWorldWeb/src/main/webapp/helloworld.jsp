@@ -5,6 +5,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>  
+<h1>Integrated with Git now!</h1>
 <br/>
 <br/>
 <br/>
