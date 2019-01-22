@@ -14,22 +14,22 @@ import com.training.warehouse.model.ProductModel;
 import com.training.warehouse.service.ProductService;
 
 @RestController
-public class ProductController {
+public class InventoryController {
 
 	@Autowired
 	private ProductService mProductService;
 
-	@PostMapping("/product/addproduct")
+	@PostMapping("/products")
 	public Product addProduct(@RequestBody ProductModel rProductModel) {
 		return mProductService.addProduct(rProductModel);
 	}
 
-	@GetMapping("/product/getproducts")
+	@GetMapping("/products")
 	public List<ProductModel> getProducts() {
 		return mProductService.getProducts();
 	}
 
-	@GetMapping("/product/getproduct/{rProductId}")
+	@GetMapping("/products/{rProductId}")
 	public ProductModel getProduct(@PathVariable Long rProductId) {
 		return mProductService.getProduct(rProductId);
 	}
