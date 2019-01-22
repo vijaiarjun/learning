@@ -1,4 +1,4 @@
-package com.training.warehouse.domain;
+package com.training.warehouse.inventory.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,4 +13,6 @@ public class Product {
 	@GeneratedValue
 	private @Getter Long productId;
 	private @Getter @Setter String productName;
+	private @Getter @Setter String reservationCode;
+	private @Getter @Setter String reservationStatus;
 }

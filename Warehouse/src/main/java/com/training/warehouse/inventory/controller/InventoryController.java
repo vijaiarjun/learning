@@ -1,4 +1,4 @@
-package com.training.warehouse.controller;
+package com.training.warehouse.inventory.controller;
 
 import java.util.List;
 
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.training.warehouse.domain.Product;
-import com.training.warehouse.model.ProductModel;
-import com.training.warehouse.service.InventoryService;
+import com.training.warehouse.inventory.domain.Product;
+import com.training.warehouse.inventory.model.ProductModel;
+import com.training.warehouse.inventory.service.InventoryService;
 
 @RestController
 public class InventoryController {
