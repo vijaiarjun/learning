@@ -8,21 +8,21 @@ import org.springframework.stereotype.Service;
 
 import com.training.warehouse.domain.Product;
 import com.training.warehouse.model.ProductModel;
-import com.training.warehouse.repository.ProductRepository;
+import com.training.warehouse.repository.InventoryRepository;
 
 @Service
-public class ProductService {
+public class InventoryService {
 	@Autowired
-	private ProductRepository mProductRepository;
+	private InventoryRepository mInventoryRepository;
 
 	public Product addProduct(ProductModel pProductModel) {
 		Product vProduct = new Product();
 		vProduct.setProductName(pProductModel.getProductName());
-		return mProductRepository.save(vProduct);
+		return mInventoryRepository.save(vProduct);
 	}
 
 	public List<ProductModel> getProducts() {
-		List<Product> vProducts = mProductRepository.findAll();
+		List<Product> vProducts = mInventoryRepository.findAll();
 
 		List<ProductModel> vProductModelList = new ArrayList<ProductModel>();
 
@@ -39,7 +39,7 @@ public class ProductService {
 	}
 
 	public ProductModel getProduct(Long pProductId) {
-		Product vProduct = mProductRepository.getOne(pProductId);
+		Product vProduct = mInventoryRepository.getOne(pProductId);
 
 		ProductModel vProductModel = new ProductModel();
 		vProductModel.setProductId(vProduct.getProductId());

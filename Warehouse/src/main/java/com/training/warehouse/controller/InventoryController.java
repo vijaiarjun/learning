@@ -11,26 +11,26 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.training.warehouse.domain.Product;
 import com.training.warehouse.model.ProductModel;
-import com.training.warehouse.service.ProductService;
+import com.training.warehouse.service.InventoryService;
 
 @RestController
 public class InventoryController {
 
 	@Autowired
-	private ProductService mProductService;
+	private InventoryService mInventoryService;
 
 	@PostMapping("/products")
 	public Product addProduct(@RequestBody ProductModel rProductModel) {
-		return mProductService.addProduct(rProductModel);
+		return mInventoryService.addProduct(rProductModel);
 	}
 
 	@GetMapping("/products")
 	public List<ProductModel> getProducts() {
-		return mProductService.getProducts();
+		return mInventoryService.getProducts();
 	}
 
 	@GetMapping("/products/{rProductId}")
 	public ProductModel getProduct(@PathVariable Long rProductId) {
-		return mProductService.getProduct(rProductId);
+		return mInventoryService.getProduct(rProductId);
 	}
 }
