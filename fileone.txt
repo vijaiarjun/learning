@@ -1,2 +1,3 @@
 Added Line 1
 Temporary Line
+Line 2 added in master
