@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2d3271e-c0fc-4279-a338-3f3f5d3b772a" name="Default Changelist" comment="Formatted Cloudbuild.yaml">
+    <list default="true" id="d2d3271e-c0fc-4279-a338-3f3f5d3b772a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,61 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1573464120365</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Formatted Cloudbuild.yaml">
+      <created>1573466658693</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1573466658693</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Updated POM">
+      <created>1573467958672</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1573467958672</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Fixed cloudbuild">
+      <created>1573468657136</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1573468657136</updated>
+    </task>
+    <task id="LOCAL−00007" summary="Fixed cloudbuild">
+      <created>1573468794715</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1573468794715</updated>
+    </task>
+    <task id="LOCAL−00008" summary="Update">
+      <created>1573497572952</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1573497572952</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Update">
+      <created>1573498178780</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1573498178780</updated>
+    </task>
+    <task id="LOCAL−00010" summary="Update">
+      <created>1573498905747</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1573498905747</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Update">
+      <created>1573500646329</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1573500646329</updated>
+    </task>
+    <task id="LOCAL−00012" summary="Update">
+      <created>1573501105579</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1573501105579</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,9 +143,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update" />
     <MESSAGE value="Added Cloudbuild.yaml" />
     <MESSAGE value="Formatted Cloudbuild.yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formatted Cloudbuild.yaml" />
+    <MESSAGE value="Updated POM" />
+    <MESSAGE value="Fixed cloudbuild" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
