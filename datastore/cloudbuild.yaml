@@ -2,7 +2,11 @@ steps:
   - name: 'gcr.io/cloud-builders/git'
     args: ['clone', 'https://github.com/vijaiarjun/learning']
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/gcp-training-233112/datastore:latest', '.']
+    args:
+      - 'build'
+      - '--tag=gcr.io/gcp-training-233112/datastore:latest'
+      - '--file=datastore/Dockerfile'
+      - '.'
 images:
   - 'gcr.io/gcp-training-233112/datastore:latest'
 
