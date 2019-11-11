@@ -1,11 +1,8 @@
 steps:
   - name: 'gcr.io/cloud-builders/git'
     args: ['clone', 'https://github.com/vijaiarjun/learning']
-    env: ['PROJECT_ROOT=datastore']
-    dir : 'datastore'
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 'gcr.io/gcp-training-233112/datastore:latest', '.']
-    env: ['PROJECT_ROOT=datastore']
 images:
   - 'gcr.io/gcp-training-233112/datastore:latest'
 
