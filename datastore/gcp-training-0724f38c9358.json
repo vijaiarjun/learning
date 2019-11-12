@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "gcp-training-233112",
+  "private_key_id": "0724f38c9358cd633592869d55e0a8a68983ab3a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHPreI8KGtnzin\nd5aLX4WaEeFpOLiLG8Szc1NrTfkZwc6D1Bq64sRJXrYfbM70f2a0Igosiu6+MRi2\nDEssVOCYZTs3O0+OjyBg/EiOp8FfFcbPu2NH6ZN60K5/y4VRPD4hOfVjhi6sZjvs\nNe0rpcTZ6hw/OxtLX96vGzvCvuuly1SNoe7cjuYz+kVDePkorYWnbthLc1G01i7b\n13VDJ/zV0H/qXtgCkCDal0Hmfw78FtDl/yXiZXgK0sQ3VmMVS7KaPs55ZJH32Y2j\nKdI6g+Lq7kDUyR2sO7L8ikwln4TynRenBYCGbBSnnaemznKThqkYSLrp21c3FeEp\nTMCCa/cjAgMBAAECggEADagS1GQJ8OiU7YWY3/ywH5tSI/ArVf2VQeeJtDUn+cf6\n67ZCDsU0RwMi4IyIsuF4nKgoolzzeD3NP80f6e33ZvqpUGPUVCUjRwKDxqNg8a+A\nbQSfDXLJFQXwr/m3LZY/e++JDkVINbDcMpiPpQo7r+QIA519hXEQxlfLhNGpPTfP\naZkV4PvUFAjImC7Fo4/Es1awvW02QZbcur9IM1Zn1yR9YCwH1Aao0aIGdIkWLB12\nhS5aeQ4dmnyMz2p32wHy1tqU4V1PVDw1dtP7fVSsrolT9gsYwI0jncnKaI2ijZgb\nX0ykWWz6cyXMgezNv2lQznzI6B0kZeBboSojSZGuYQKBgQD+c/TspMn8lR2iWztb\ncVn1YnNmOBVJgWUzFEbgNZOd8K6/EI/KrGSQ7AtrycMM5qb2XpI8W4kzTBlUOzHP\nlVdaVxlnDmEKPMm/yBq5chVdatcy0TsHhdOjsO3MkrCKkmA53rq0WU7aqCrrxYdD\nNPpWw3yRQn1VsG4m72Y3nKnnnwKBgQDIdNTufsuw3brcwRFJsYwVOLUAUQiQlv8Z\nUp7GmWYkOIv0GrKOllA3PQfXj+F3pJ36v66Vq8GsbtC6wg3SVTkVbI3TPx7YkZll\nRs1P3+b/gR2F9QTsOazk9K2VjXXA+UadE0pcleaF5tByCVMOwjhrawwGuXzAYpgj\n6ckaIA+R/QKBgAOBh4NnNd1EFLdy+FtnMW0fISXsaeasYL+WbO+T7WfEtDOvv7t0\nKqKQjgu7KPPZjb1hSjSIslhBmSu+8Q3CKgT1pET2PsIMWl9JG40olEDIQxTRKzYM\nUwEzY+NotgQCxk6l0f7AKET9AjJjc1yqszRU1zeNKfrvRmVE8Syc/P5TAoGAQ7EI\nUr1opYJK3s8nul4FcwkiPkge/0yuOmvnCCO3FVYvFLCLSZFC51RpuIZy2gcx/gIK\nv6ovjb4iKF7tcfCrhSuSPRrcnL+WMFgXbviqNe/w+1KBZhAX7X0evRj3AcJr8REZ\nlGheXytRiqDRdnNpwAR3HDI5CXKB8+a3rWXUPDUCgYEA7Zrbn9Q5De3qCKaFi3er\nN5OWr5hDb7NalgMkm0EJ95FCq0Xxic/UCJkspRY2tBfugeRyztzNdAXR5FyBWd/9\nq7nEGVb9MDbUigbeWF0rVcQgOPAUxz5WJ1ozQSulcembuax4DJAv/jn5+1DUHBRt\nmmEl6BJOrpm4nH7bG5lRbQ4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcp-training-233112@appspot.gserviceaccount.com",
+  "client_id": "115932858200330045692",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcp-training-233112%40appspot.gserviceaccount.com"
+}
